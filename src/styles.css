@@ -1,0 +1,44 @@
+.tooltip {
+    position: relative;
+    margin: 30px 0;
+}
+
+.tooltip-content {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    padding: 0.2em 1em;
+    border: .5px solid darkgrey;
+    color: darkgrey;
+    font-size: 0.75em;
+}
+
+.block {
+    width: 30vw;
+    color: yellow;
+    background: olive;
+}
+
+.content {
+    display: none;
+    background: rebeccapurple;
+    color: lightskyblue;
+    padding: 20px;
+}
+
+.title {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: darkslategrey;
+}
+
+.title.is-active + .content {
+    display: block;
+}
+
+
+
+
